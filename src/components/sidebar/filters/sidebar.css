@@ -1,0 +1,31 @@
+button{
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 1px #E5E5E5;
+    height: 36px;
+    min-width: 36px;
+    padding-left: 3px;
+    padding-right:3px;
+    
+}
+.sidebar {
+    height: 100vh; /* Set the height of the sidebar to the full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden;
+   
+    width: inherit;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Rounded corners of the thumb */
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+  }
+  
